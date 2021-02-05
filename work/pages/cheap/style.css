@@ -1,0 +1,73 @@
+body {
+	background-color: #add8e6;
+}
+
+#title {
+	padding-left: 10px;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 60px;
+	color: #3b90ae;
+}
+
+.link {
+	padding-left: 10px;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 40px;
+	text-decoration: none;
+	color: #3b90ae;
+}
+.link:hover { 
+	color: #2e6275;
+}
+
+.photos {
+	float:left;
+	float: left;
+	width: 100%;
+	display: block;
+	opacity: 100%;
+	transition-duration: .25s;
+}
+a.overlay{
+	float: left;
+}
+.overlay:hover .name{
+	opacity: 100%;
+}
+.overlay:hover .sub{
+	opacity: 100%;
+}
+.overlay:hover .photos{
+	opacity: 18%;
+}
+.name{
+	padding-left: 10px;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 40px;
+	text-decoration: none;
+	color: #3b90ae;
+	justify-content: center;
+	position: absolute;
+	opacity: 0;
+	max-width: 30%;
+}
+.third{
+	width: 32%;
+	margin-left: 1.33%;
+	margin-bottom: 1.33%;
+	margin-top: 1.33%;
+}
+
+.pics{
+	width: 80%;
+	padding-left: 10%;
+	padding-top: 5%;
+}
+
+

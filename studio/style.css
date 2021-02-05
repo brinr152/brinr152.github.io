@@ -1,0 +1,96 @@
+body {
+	background-color: #add8e6;
+}
+
+#title {
+	padding-left: 10px;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 80px;
+	color: #3b90ae;
+}
+
+.link {
+	padding-left: 10px;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 40px;
+	text-decoration: none;
+	color: #3b90ae;
+}
+.link:hover { 
+	color: #2e6275;
+	font-size: 45px;
+}
+
+#main {
+	padding-top: 10px;
+	padding-left: 10px;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+	text-decoration: none;
+	color: #3b90ae;
+	max-width: 80%;
+}
+
+.projects {
+	padding-left: 10px;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 30px;
+	text-decoration: none;
+	color: #3b90ae;
+}
+.projects:hover { 
+	color: #2e6275;
+	font-size: 35px;
+}
+
+li::marker {
+	color: #3b90ae;
+}
+
+.photos {
+	float:left;
+	float: left;
+	width: 100%;
+	display: block;
+	opacity: 60%;
+	transition-duration: .25s;
+}
+a.overlay{
+	float: left;
+}
+.overlay:hover .name{
+	color: #2e6275;
+}
+.overlay:hover .sub{
+	opacity: 100%;
+}
+.overlay:hover .photos{
+	opacity: 18%;
+}
+.name{
+	padding-left: 10px;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 40px;
+	text-decoration: none;
+	color: #3b90ae;
+	justify-content: center;
+	position: absolute;
+	opacity: 100%;
+	max-width: 30%;
+}
+.third{
+	width: 32%;
+	margin-left: 1.33%;
+	margin-bottom: 1.33%;
+	margin-top: 1.33%;
+}
