@@ -1,6 +1,17 @@
-body {
-	cursor: url(blue.png), auto;
+#number {
+	font-family: forma-djr-deck, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #228C10;
+	font-size: 25pt;
+	margin-top: 2%;
+	margin-left: 47%;
 }
+
+body {
+	cursor: url(../green.png), auto;
+}
+
 .column {
 	float: left;
 	width: 44%;
@@ -18,7 +29,7 @@ body {
 	font-family: forma-djr-deck, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	color: #2457BA;
+	color: #228C10;
 }
 #title {
 	font-size: 65pt;
@@ -27,6 +38,9 @@ body {
 #title:hover {
 	opacity: 15%;
 }
+#title:hover + #titlelight {
+	opacity: 100%;
+}
 
 #sub {
 	margin-top: 3%;
@@ -34,6 +48,9 @@ body {
 }
 #sub:hover {
 	opacity: 15%;
+}
+#sub:hover #sublight {
+	opacity: 100%;
 }
 
 #info {
@@ -44,6 +61,9 @@ body {
 }
 #info:hover {
 	opacity: 15%;
+}
+#info:hover #infolight {
+	opacity: 100%;
 }
 
 #titlelight {
@@ -68,11 +88,9 @@ body {
 	font-family: forma-djr-deck, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	color: #2457BA;
+	color: #228C10;
 	font-size: 15pt;
 }
-
-
 #line1:hover{
 	opacity: 15%;
 }
@@ -130,19 +148,70 @@ body {
 #line19:hover{
 	opacity: 15%;
 }
+#line20:hover{
+	opacity: 15%;
+}
+#line21:hover{
+	opacity: 15%;
+}
+#line22:hover{
+	opacity: 15%;
+}
+#line23:hover{
+	opacity: 15%;
+}
 .mainlight {
 	font-family: forma-djr-deck, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	color: #2457BA;
+	color: #228C10;
 	font-size: 15pt;
 }
 
+
+#back {
+	font-family: forma-djr-deck, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #228C10;
+	opacity: 15%;
+	font-size: 15pt;
+	float: left;
+}
+#back:hover {
+	opacity: 100%;
+}
 #next {
 	font-family: forma-djr-deck, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	color: #2457BA;
+	color: #228C10;
+	opacity: 15%;
+	font-size: 15pt;
+	margin-left: 97%;
+	float: left;
+}
+#next:hover {
+	opacity: 100%;
+}
+
+#back {
+	font-family: forma-djr-deck, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #228C10;
+	opacity: 15%;
+	font-size: 25pt;
+	float: left;
+}
+#back:hover {
+	opacity: 100%;
+}
+#next {
+	font-family: forma-djr-deck, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #228C10;
 	opacity: 15%;
 	margin-left: 95%;
 	font-size: 25pt;
@@ -209,5 +278,15 @@ body {
 #line19light {
 	opacity: 15%;
 }
-
-
+#line20light {
+	opacity: 15%;
+}
+#line21light {
+	opacity: 15%;
+}
+#line22light {
+	opacity: 15%;
+}
+#line23light {
+	opacity: 15%;
+}

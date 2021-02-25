@@ -1,5 +1,15 @@
+#number {
+	font-family: forma-djr-deck, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #228C10;
+	font-size: 25pt;
+	margin-top: 2%;
+	margin-left: 47%;
+}
+
 body {
-	cursor: url(blue.png), auto;
+	cursor: url(../green.png), auto;
 }
 .column {
 	float: left;
@@ -18,7 +28,7 @@ body {
 	font-family: forma-djr-deck, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	color: #2457BA;
+	color: #228C10;
 }
 #title {
 	font-size: 65pt;
@@ -27,6 +37,9 @@ body {
 #title:hover {
 	opacity: 15%;
 }
+#title:hover + #titlelight {
+	opacity: 100%;
+}
 
 #sub {
 	margin-top: 3%;
@@ -34,6 +47,9 @@ body {
 }
 #sub:hover {
 	opacity: 15%;
+}
+#sub:hover #sublight {
+	opacity: 100%;
 }
 
 #info {
@@ -44,6 +60,9 @@ body {
 }
 #info:hover {
 	opacity: 15%;
+}
+#info:hover #infolight {
+	opacity: 100%;
 }
 
 #titlelight {
@@ -68,11 +87,9 @@ body {
 	font-family: forma-djr-deck, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	color: #2457BA;
+	color: #228C10;
 	font-size: 15pt;
 }
-
-
 #line1:hover{
 	opacity: 15%;
 }
@@ -118,31 +135,32 @@ body {
 #line15:hover{
 	opacity: 15%;
 }
-#line16:hover{
-	opacity: 15%;
-}
-#line17:hover{
-	opacity: 15%;
-}
-#line18:hover{
-	opacity: 15%;
-}
-#line19:hover{
-	opacity: 15%;
-}
 .mainlight {
 	font-family: forma-djr-deck, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	color: #2457BA;
+	color: #228C10;
 	font-size: 15pt;
 }
 
+
+#back {
+	font-family: forma-djr-deck, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #228C10;
+	opacity: 15%;
+	font-size: 25pt;
+	float: left;
+}
+#back:hover {
+	opacity: 100%;
+}
 #next {
 	font-family: forma-djr-deck, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	color: #2457BA;
+	color: #228C10;
 	opacity: 15%;
 	margin-left: 95%;
 	font-size: 25pt;
@@ -197,17 +215,4 @@ body {
 #line15light {
 	opacity: 15%;
 }
-#line16light {
-	opacity: 15%;
-}
-#line17light {
-	opacity: 15%;
-}
-#line18light {
-	opacity: 15%;
-}
-#line19light {
-	opacity: 15%;
-}
-
 

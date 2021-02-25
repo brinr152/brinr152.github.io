@@ -152,36 +152,4 @@ $(function() {
   });
  });
 
-$(function() {
-  $('#line16').hover(function() {
-    $('#line16light').css('opacity', '100%');
-  }, function() {
-    $('#line16light').css('opacity', '');
-  });
- });
-
-$(function() {
-  $('#line17').hover(function() {
-    $('#line17light').css('opacity', '100%');
-  }, function() {
-    $('#line17light').css('opacity', '');
-  });
- });
-
-$(function() {
-  $('#line18').hover(function() {
-    $('#line18light').css('opacity', '100%');
-  }, function() {
-    $('#line18light').css('opacity', '');
-  });
- });
-
-$(function() {
-  $('#line19').hover(function() {
-    $('#line19light').css('opacity', '100%');
-  }, function() {
-    $('#line19light').css('opacity', '');
-  });
- });
-
 });

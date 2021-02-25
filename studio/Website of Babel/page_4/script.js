@@ -1,30 +1,6 @@
 $(document).ready(function() {
 
 $(function() {
-  $('#title').hover(function() {
-    $('#titlelight').css('opacity', '100%');
-  }, function() {
-    $('#titlelight').css('opacity', '');
-  });
- });
-
-$(function() {
-  $('#sub').hover(function() {
-    $('#sublight').css('opacity', '100%');
-  }, function() {
-    $('#sublight').css('opacity', '');
-  });
- });
-
-$(function() {
-  $('#info').hover(function() {
-    $('#infolight').css('opacity', '100%');
-  }, function() {
-    $('#infolight').css('opacity', '');
-  });
- });
-
-$(function() {
   $('#line1').hover(function() {
     $('#line1light').css('opacity', '100%');
   }, function() {
@@ -165,22 +141,6 @@ $(function() {
     $('#line17light').css('opacity', '100%');
   }, function() {
     $('#line17light').css('opacity', '');
-  });
- });
-
-$(function() {
-  $('#line18').hover(function() {
-    $('#line18light').css('opacity', '100%');
-  }, function() {
-    $('#line18light').css('opacity', '');
-  });
- });
-
-$(function() {
-  $('#line19').hover(function() {
-    $('#line19light').css('opacity', '100%');
-  }, function() {
-    $('#line19light').css('opacity', '');
   });
  });
 
