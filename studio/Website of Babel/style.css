@@ -1,6 +1,8 @@
 body {
 	cursor: url(blue.png), auto;
 }
+
+
 .column {
 	float: left;
 	width: 44%;
@@ -12,6 +14,9 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+.light {
+	opacity: 100%;
 }
 
 .heads {
@@ -150,6 +155,7 @@ body {
 }
 #next:hover {
 	opacity: 100%;
+	cursor: url(blue.png), auto;
 }
 
 #line1light {
@@ -208,6 +214,120 @@ body {
 }
 #line19light {
 	opacity: 15%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+.column {
+	position: absolute;
+	width: 100%;
+}
+
+.heads {
+	opacity: 15%;
+	z-index: 1;
+}
+
+#info {
+	opacity: 15%;
+	z-index: 1;
+}
+
+#titlelight {
+	opacity: 0%;
+	z-index: -1;
+}
+#sublight {
+	opacity: 0%;
+	z-index: -1;
+}
+#infolight {
+	opacity: 0%;
+	z-index: -1;
+}
+
+.main {
+	opacity: 15%;
+	z-index: 1;
+}
+.mainlight {
+	opacity: 0%;
+	z-index: -1;
+}
+#next {
+	opacity: 100%;
+	margin-left: 80%;
+}
+
+#title:click {
+	opacity: 0%;
+}
+#sub:click {
+	opacity: 0%;
+}
+#info:click {
+	opacity: 0%;
+}
+
+#line1:click{
+	opacity: 0%;
+}
+#line2:click{
+	opacity: 0%;
+}
+#line3:click{
+	opacity: 0%;
+}
+#line4:click{
+	opacity: 0%;
+}
+#line5:click{
+	opacity: 0%;
+}
+#line6:click{
+	opacity: 0%;
+}
+#line7:click{
+	opacity: 0%;
+}
+#line8:click{
+	opacity: 0%;
+}
+#line9:click{
+	opacity: 0%;
+}
+#line10:click{
+	opacity: 0%;
+}
+#line11:click{
+	opacity: 0%;
+}
+#line12:click{
+	opacity: 0%;
+}
+#line13:click{
+	opacity: 0%;
+}
+#line14:click{
+	opacity: 0%;
+}
+#line15:click{
+	opacity: 0%;
+}
+#line16:click{
+	opacity: 0%;
+}
+#line17:click{
+	opacity: 0%;
+}
+#line18:click{
+	opacity: 0%;
+}
+#line19:click{
+	opacity: 0%;
+}
+
 }
 
 
